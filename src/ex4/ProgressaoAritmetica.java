@@ -13,7 +13,7 @@ public class ProgressaoAritmetica {
         System.out.print("Informe o primeiro termo: ");
         double termo = Double.parseDouble(scan.nextLine());
 
-        double decimoTermo = 2 + (10 - 1) * razao;
+        double decimoTermo = termo + (9 * razao);
         System.out.printf("Décimo termo: %.2f", decimoTermo);
 
         scan.close();
