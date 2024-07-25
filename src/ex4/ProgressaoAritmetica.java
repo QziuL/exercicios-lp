@@ -9,9 +9,9 @@ public class ProgressaoAritmetica {
         System.out.println("\n| Progressão Aritmética");
         System.out.println("| Calcular Décimo Termo");
         System.out.print("Informe a razão: ");
-        double razao = Float.parseFloat(scan.nextLine());
+        double razao = Double.parseDouble(scan.nextLine());
         System.out.print("Informe o primeiro termo: ");
-        double termo = Float.parseFloat(scan.nextLine());
+        double termo = Double.parseDouble(scan.nextLine());
 
         double decimoTermo = 2 + (10 - 1) * razao;
         System.out.printf("Décimo termo: %.2f", decimoTermo);
